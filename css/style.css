@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 10px dotted rgb(75, 211, 166);
+}
+
+.button{
+    background-color: rgb(75, 211, 166);
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result{
+    background-color: rgb(75, 211, 166);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}
